@@ -1,0 +1,9 @@
+<!DOCTYPE organization [
+<!ELEMENT organization (employee*)>
+<!ELEMENT employee (id, name, designation, department, salary)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT designation (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+]>

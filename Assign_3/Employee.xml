@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE organization SYSTEM "Employee.dtd">
+<?xml-stylesheet type="text/xsl" href="Employee.xsl"?>
+<!-- Root element -->
+<organization>
+    <employee>
+        <id>101</id>
+        <name>John Doe</name>
+        <designation>Software Engineer</designation>
+        <department>IT</department>
+        <salary>75000</salary>
+    </employee>
+    <employee>
+        <id>102</id>
+        <name>Jane Smith</name>
+        <designation>Project Manager</designation>
+        <department>Operations</department>
+        <salary>85000</salary>
+    </employee>
+    <employee>
+        <id>103</id>
+        <name>Mary Johnson</name>
+        <designation>Test Engineer</designation>
+        <department>Operations</department>
+        <salary>47000</salary>
+    </employee>
+    <employee>
+        <id>104</id>
+        <name>Michael Brown</name>
+        <designation>Project Manager</designation>
+        <department>Development</department>
+        <salary>95000</salary>
+    </employee>
+    <employee>
+        <id>105</id>
+        <name>Emily Davis</name>
+        <designation>Software Developer</designation>
+        <department>IT</department>
+        <salary>72000</salary>
+    </employee>
+    <employee>
+        <id>106</id>
+        <name>William Harris</name>
+        <designation>Business Analyst</designation>
+        <department>Development</department>
+        <salary>78000</salary>
+    </employee>
+    <employee>
+        <id>107</id>
+        <name>Alice Walker</name>
+        <designation>Project Manager</designation>
+        <department>IT</department>
+        <salary>92000</salary>
+    </employee>
+    <employee>
+        <id>108</id>
+        <name>David Martinez</name>
+        <designation>Quality Assurance</designation>
+        <department>IT</department>
+        <salary>64000</salary>
+    </employee>
+    <employee>
+        <id>109</id>
+        <name>Olivia Taylor</name>
+        <designation>Software Engineer</designation>
+        <department>Development</department>
+        <salary>71000</salary>
+    </employee>
+    <employee>
+        <id>110</id>
+        <name>James Moore</name>
+        <designation>Test Engineer</designation>
+        <department>Development</department>
+        <salary>46000</salary>
+    </employee>
+    <employee>
+        <id>111</id>
+        <name>Charlotte Lee</name>
+        <designation>Business Analyst</designation>
+        <department>Development</department>
+        <salary>78000</salary>
+    </employee>
+    
+</organization>
