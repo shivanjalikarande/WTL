@@ -1,0 +1,98 @@
+
+
+header {
+    background-color: #e63946;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer General Styles */
+.footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    padding: 20px 0; /* Space around the footer */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+.footer-container {
+    display: flex; /* Horizontal layout for child divs */
+    justify-content: space-between; /* Equal spacing between divs */
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    max-width: 1200px; /* Centralize content with a max-width */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Inner spacing for mobile screens */
+}
+
+.footer-section {
+    flex: 1; /* Each section takes equal width */
+    min-width: 200px; /* Ensure a minimum width for each section */
+    margin: 10px; /* Space between sections */
+}
+
+.footer-section h3 {
+    font-size: 18px; /* Header font size */
+    margin-bottom: 10px; /* Space below the header */
+}
+
+.footer-section p, .footer-section a {
+    font-size: 14px; /* Font size for text and links */
+    margin: 5px 0; /* Spacing between lines */
+    color: #bbb; /* Light gray text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer-section a:hover {
+    color: #e63946; /* Highlight links on hover */
+}
+
+.footer-bottom {
+    text-align: center; /* Center-align bottom text */
+    margin-top: 20px; /* Space above the bottom text */
+    border-top: 1px solid #444; /* Top border for separation */
+    padding-top: 10px; /* Space above the bottom text */
+    font-size: 14px; /* Font size for bottom text */
+    color: #bbb; /* Light gray color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Stack sections vertically on small screens */
+        text-align: center; /* Center-align text for all sections */
+    }
+}

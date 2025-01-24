@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites - Home</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #e63946;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #111;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-image: url('restaurant.jpg');
+            background-size: cover;
+            color: white;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        .menu-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .menu-table th,
+        .menu-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        .menu-table th {
+            background-color: #e63946;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Delicious Bites</h1>
+        <p>Your gateway to delightful culinary experiences!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to Delicious Bites</h2>
+        <p>Experience flavors that excite your taste buds!</p>
+    </section>
+
+    <section class="content" id="menu">
+        <h2>Our Menu</h2>
+        <table class="menu-table">
+            <thead>
+                <tr>
+                    <th>Dish</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Grilled Chicken</td>
+                    <td>Juicy grilled chicken served with a side of veggies.</td>
+                    <td>$15.99</td>
+                </tr>
+                <tr>
+                    <td>Pasta Alfredo</td>
+                    <td>Creamy Alfredo pasta topped with parmesan.</td>
+                    <td>$12.99</td>
+                </tr>
+                <tr>
+                    <td>Garden Salad</td>
+                    <td>Fresh vegetables tossed with a light vinaigrette.</td>
+                    <td>$8.99</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="content" id="about">
+        <h2>About Us</h2>
+        <p>Delicious Bites has been serving delectable dishes since 1995. We believe in quality, taste, and an
+            exceptional dining experience. Visit us to enjoy an unforgettable culinary journey!</p>
+    </section>
+
+    <section class="content" id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Address Section -->
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p>123 Foodie Lane,<br>Culinary City, FL 12345</p>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                <p>Email: <a href="mailto:info@deliciousbites.com">info@deliciousbites.com</a></p>
+            </div>
+
+            <!-- Working Hours Section -->
+            <div class="footer-section">
+                <h3>Working Hours</h3>
+                <p>Monday - Friday: 9:00 AM - 10:00 PM</p>
+                <p>Saturday - Sunday: 10:00 AM - 11:00 PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Delicious Bites. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

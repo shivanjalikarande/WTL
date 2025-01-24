@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        /* Menu Table Styles */
+        .menu-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 40px;
+        }
+
+        .menu-table th,
+        .menu-table td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+            background-color: white;
+        }
+
+        .menu-table th {
+            background-color: #e63946;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        .menu-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .menu-table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .menu-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 10px;
+        }
+
+        .menu-item {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .menu-price {
+            color: #e63946;
+        }
+
+        .menu-description {
+            font-style: italic;
+            color: #777;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5em;
+            color: #e63946;
+            margin-bottom: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .menu-table th,
+            .menu-table td {
+                padding: 10px;
+            }
+
+            .menu-image {
+                width: 100px;
+                height: 100px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            .section-title {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Our Menu</h1>
+    </header>
+
+    <section>
+        <h2 class="section-title">Delicious Bites Menu</h2>
+
+        <!-- Menu Table -->
+        <table class="menu-table">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="grilled_salmon.jpeg" alt="Dish 1" class="menu-image"></td>
+                    <td class="menu-item">Grilled Salmon</td>
+                    <td class="menu-description">Freshly grilled salmon with a zesty lemon sauce and roasted vegetables.</td>
+                    <td class="menu-price">$19.99</td>
+                </tr>
+                <tr>
+                    <td><img src="ChickenAlfredo.jpeg" alt="Dish 2" class="menu-image"></td>
+                    <td class="menu-item">Chicken Alfredo</td>
+                    <td class="menu-description">Creamy Alfredo sauce with tender chicken breast and parmesan.</td>
+                    <td class="menu-price">$14.99</td>
+                </tr>
+                <tr>
+                    <td><img src="Caesar_Salad.jpeg" alt="Dish 3" class="menu-image"></td>
+                    <td class="menu-item">Vegetarian Pasta</td>
+                    <td class="menu-description">A flavorful blend of pasta with seasonal vegetables in a light pesto sauce.</td>
+                    <td class="menu-price">$12.99</td>
+                </tr>
+                <tr>
+                    <td><img src="Vegetarian_Pasta.jpeg" alt="Dish 4" class="menu-image"></td>
+                    <td class="menu-item">Caesar Salad</td>
+                    <td class="menu-description">Crisp romaine lettuce, croutons, and parmesan cheese with Caesar dressing.</td>
+                    <td class="menu-price">$8.99</td>
+                </tr>
+                <tr>
+                    <td><img src="https://via.placeholder.com/120x120.png?text=Dish+5" alt="Dish 5" class="menu-image"></td>
+                    <td class="menu-item">Beef Steak</td>
+                    <td class="menu-description">Juicy steak cooked to your preference, served with mashed potatoes and grilled asparagus.</td>
+                    <td class="menu-price">$22.99</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>
